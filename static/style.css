@@ -15,7 +15,7 @@ body {
 }
 
 #navbar-id {
-    background-color: rgba(249,249,249, 0.6);
+    background-color: rgba(197,197,197, 0.6);
 }
 
 #title-id {
@@ -34,7 +34,7 @@ body {
 }
 
 #fixed-box {
-    background-color: rgba(249,249,249, 0.6);
+    background-color: rgba(197,197,197, 0.6);
     border-radius: 4px;
     color: white;
     text-align: center;
@@ -45,7 +45,7 @@ body {
 }
 
 main {
-    background-color: rgba(249,249,249, 0.6);
+    background-color: rgba(197,197,197, 0.6);
     border-radius: 4px;
     color: white;
     text-align: center;
