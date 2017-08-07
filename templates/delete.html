@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Delete Account
+{% endblock %}
+
+{% block main %}
+    <h3 class="fixed-title">Are you sure?</h3>
+    <p>If you click the button below, your account and all data related to it will be permanently deleted. <b>Are you sure you want to do this?</b></p>
+
+    <form action="{{ url_for('delete') }}" method="post">
+        <fieldset>
+            <div class="form-group">
+                <input class="form-control" name="password" placeholder="Password" type="password"/>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-default" type="submit">Yes, I am sure</button>
+            </div>
+        </fieldset>
+    </form>
+{% endblock %}

@@ -1,0 +1,127 @@
+body {
+    background: url(http://imageshack.com/a/img923/1337/Z1izBD.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+#navbar-id {
+    background-color: rgba(249,249,249, 0.6);
+}
+
+#title-id {
+    color: rgb(242,219,83);
+    text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.nav a {
+    color: white !important;
+}
+
+.nav a:hover {
+    color: rgb(242,219,83) !important;
+    text-shadow: 1px 1px 0px rgba(150, 150, 150, 1) !important;
+}
+
+#fixed-box {
+    background-color: rgba(249,249,249, 0.6);
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+#fixed-content {
+    padding: 10px;
+}
+
+main {
+    background-color: rgba(249,249,249, 0.6);
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#text {
+    padding: 10px;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+main td
+{
+    /* left-align tables' cells */
+    text-align: left;
+}
+
+.fixed-title {
+    color: rgb(242,219,83);
+    text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.fixed-content {
+    font-size: 16px;
+    color: white;
+}
+
+.fixed-text {
+    color: rgb(242,219,83);
+    text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);
+}
+
+.fixed-list {
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(242,219,83);
+    text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);
+    font-weight: normal;
+}
+
+table th {
+    color: rgb(242,219,83);
+    text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);
+    font-size: 16px;
+    text-align: center;
+    padding: 2px;
+}
+
+table td {
+    text-align: center;
+    font-weight: bold;
+    padding: 1px;
+}
+
+table tc {
+    padding: 12px;
+}

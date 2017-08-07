@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Today
+{% endblock %}
+
+{% block main %}
+    <h3 class="fixed-title">Today you drank {{ quantity }} litres of water</h3>
+    <form action="{{ url_for('today') }}" method="post">
+        <fieldset>
+            <h4 class="fixed-content">How many mililitres of water did you just drink?</h4>
+            <div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name="quantity" placeholder="Water intake (ml)" type="text"/>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-default" type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+{% endblock %}

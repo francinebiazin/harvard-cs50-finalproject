@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+
+    <h3 class="fixed-title">Day by Day History</h3>
+    <p>Here is the history of your water intake submissions over the last 30 days.</p>
+    
+    <table align="center">
+        <tr>
+            <th>Date</th>
+            <th>Water Intake (ls)</th>
+        </tr>
+        {% for entry in history2 %}
+        <tr>
+            <td>{{ entry.date }}</td>
+            <td>{{ entry.quantity }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h3 class="fixed-title">Complete History</h3>
+    <p>Here is the history of your last 30 water intake submissions.</p>
+    
+    <table align="center">
+        <tr>
+            <th>Date & Time</th>
+            <th>Water Intake (mls)</th>
+        </tr>
+        {% for entry in history1 %}
+        <tr>
+            <td>{{ entry.date }}</td>
+            <td>{{ entry.quantity }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+{% endblock %}
