@@ -7,7 +7,7 @@ Health experts advise that we should be drinking at least 8 glasses of water a d
 
 Drinking enough water boosts our metabolisms, improves skin condition, cures some headaches, improves concentration, helps the immune system, improves digestion, increases energy levels, helps us exercise better, and quite frankly just makes us happier.
 
-"[So let's start drinking more water right now!](http://fbiazin.pythonanywhere.com/)"
+So let's start drinking more water right now: "[Rehydrate then Celebrate!](http://rehydratethencelebrate.pythonanywhere.com/)"
 
 ### Quick look
 
