@@ -9,6 +9,8 @@ Drinking enough water boosts our metabolisms, improves skin condition, cures som
 
 So let's start drinking more water right now: "[Rehydrate then Celebrate!](http://rehydratethencelebrate.pythonanywhere.com/)"
 
+Project video: "[Harvard CS50 Final Project: Rehydrate then Celebrate!](https://youtu.be/D_Um1vzknyE/)"
+
 ### Quick look
 
 ![Rehydrate then Celebrate 1](http://imagizer.imageshack.us/v2/800x600q90/922/5BwbBy.png)
